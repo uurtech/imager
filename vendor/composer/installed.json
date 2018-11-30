@@ -1,0 +1,108 @@
+[
+    {
+        "name": "eihror/compress-image",
+        "version": "v0.0.6",
+        "version_normalized": "0.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eihror/compress-image.git",
+            "reference": "1efa57d1180e6018b1b7482db5d41e5f721dc509"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eihror/compress-image/zipball/1efa57d1180e6018b1b7482db5d41e5f721dc509",
+            "reference": "1efa57d1180e6018b1b7482db5d41e5f721dc509",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-08-03T19:30:08+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src"
+            ],
+            "psr-4": {
+                "Eihror\\Compress\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Eihror",
+                "email": "igor_gmelo@hotmail.com",
+                "homepage": "http://www.igormelo.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Compress your image without losing quality",
+        "homepage": "https://github.com/eihror/compress-image"
+    },
+    {
+        "name": "gumlet/php-image-resize",
+        "version": "1.9.1",
+        "version_normalized": "1.9.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gumlet/php-image-resize.git",
+            "reference": "d36a7bcd679445ec8f310fdbecac5d40b0c587de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gumlet/php-image-resize/zipball/d36a7bcd679445ec8f310fdbecac5d40b0c587de",
+            "reference": "d36a7bcd679445ec8f310fdbecac5d40b0c587de",
+            "shasum": ""
+        },
+        "require": {
+            "ext-fileinfo": "*",
+            "ext-gd": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "apigen/apigen": "^4.1",
+            "ext-exif": "*",
+            "ext-gd": "*",
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^4.8"
+        },
+        "suggest": {
+            "ext-exif": "Auto-rotate jpeg files"
+        },
+        "time": "2018-07-28T11:04:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gumlet\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aditya Patadia",
+                "homepage": "http://aditya.patadia.org/"
+            }
+        ],
+        "description": "PHP class to re-size and scale images",
+        "homepage": "https://github.com/gumlet/php-image-resize",
+        "keywords": [
+            "image",
+            "php",
+            "resize",
+            "scale"
+        ]
+    }
+]
